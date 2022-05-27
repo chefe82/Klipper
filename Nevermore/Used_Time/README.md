@@ -1,7 +1,7 @@
 # Nevermore Aktivkohle nach Nutzungszeit (Tagen)
 
 Die Aktivkohle im Nevermore Filter sollte idealerweise nach 50 Druckstunden oder 30 Tagen nach Herausnahme aus der Vakuumverpackung getauscht werden.
-Hiermit stellen wir eine Möglichkeit bereit die entsprechende Werte in Klipper speichern und Auswerten zu können.
+Hiermit stellen wir eine Möglichkeit bereit, die entsprechende Werte in Klipper speichern und auswerten zu können.
 
 ❗ ACHTUNG: Wir übernehmen keine Haftung bei Schäden die durch die Nutzung entstehen könnten.
 
@@ -36,20 +36,20 @@ Die schon vorhandenen Dateien `user_variable.cfg` und `printtime.cfg` durch die 
 
 Die Datei `gcode_shell_command.py` könnt ihr in das Homeverzeichnis z.B. `/home/pi/` kopieren.
 
-Damit Klipper dies Funktionen aus dem Python Script aufrufen kann muss diese über ein Symlink in Klipper eingebunden werden. Dazu per SSH folgenden Befehl ausführen
+Damit Klipper diese Funktionen aus dem Python Script aufrufen kann, müssen diese über ein Symlink in Klipper eingebunden werden. Dazu per SSH folgenden Befehl ausführen
 
     ln -s /home/pi/gcode_shell_command.py /home/pi/klipper/klippy/extras/gcode_shell_command.py
 
 danach Klipper Service Neustarten.
 Nach dem Neustart von Klipper sollte keine Fehlermeldung erscheinen!!
 
-Jetzt Folgendes Macro ausführen `ResetFilterDate` somit wird das aktuelle Datum gespeichert und nach diesem die vergangene Tagen berechnet.
-Das Datum kann man in der .`ftime.stb` manuell ändern wenn man weiß wann das letzte mal die Aktivkohle getauscht wurde. 
+Jetzt folgendes Macro ausführen `ResetFilterDate` somit wird das aktuelle Datum gespeichert und nach diesem die vergangene Tagen berechnet.
+Das Datum kann man in der .`ftime.stb` manuell ändern, wenn man weiß wann das letzte mal die Aktivkohle getauscht wurde. 
 
     Format: YYYYMMDD
 
 Mit dem Ausführen des Macros `get_FilterStatusDate` kann man sich die Auswertung anzeigen lassen.
-Dies sollte dan so aussehen
+Diese sollte dan so aussehen
 
 ![enter image description here](https://github.com/chefe82/Klipper/blob/main/Nevermore/Used_Time/Pictures/nevermore_status.png?raw=true)
 		
@@ -57,7 +57,8 @@ Mit dem Aufruf des Macros `get_FilterStatusAll` wird die komplette Statistik ang
 
 ![enter image description here](https://github.com/chefe82/Klipper/raw/main/Nevermore/Used_Time/Pictures/nevermore_status_all.png)
 
-Durch die ausführung des Macros `RST_FILTER` kann die ganze Statistik zurück gesetzt werden.
+Durch die Ausführung des Macros `RST_FILTER` kann die ganze Statistik zurückgesetzt werden.
+
 
 
     
