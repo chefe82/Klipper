@@ -27,9 +27,8 @@ Erstellt in Mainsail einen neuen Ordner z.B.
  in diesen Ordner kopiert ihr folgende Dateien
  `get_filter_time.sh, reset_filter_time.sh und die .ftime.stb`.
 
-Die Datei `filter_used_time.cfg` in einen Ordner eurer Wahl einfügen und in der `printer.cfg` mit [Include filter_used_time.cfg] einbinden (danach Nur speichern kein Neustart).
-
-Die schon vorhandene `user_variable.cfg` und `printtime.cfg` durch die neue ersetzen.
+Die schon vorhandenen Dateien `user_variable.cfg` und `printtime.cfg` durch die neue ersetzen.
+!!! Achtung dies überschreibt von euch vorgenommene Änderungen in den Dateien !!!
 
 Die Datei `gcode_shell_command.py` könnt ihr in das Homeverzeichnis z.B. `/home/pi/` kopieren.
 
