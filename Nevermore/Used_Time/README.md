@@ -17,6 +17,7 @@ https://github.com/cryd-s/Vyper_extended/tree/main/Betriebsstunden
  - [ ] get_filter_time.sh
  - [ ] reset_filter_time.sh
  - [ ] filter_used_time.cfg
+ - [ ] printtime.cfg
  - [ ] user_variable.cfg (angepasst)
  - [ ] .ftime.stb (optional wird automatisch erstellt
 
