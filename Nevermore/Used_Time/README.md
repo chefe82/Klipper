@@ -3,7 +3,8 @@
 Die Aktivkohle im Nevermore Filter sollte idealerweise nach 50 Druckstunden oder 30 Tagen nach herausnahme aus der Vakuumverpackung getauscht werden.
 Hiermit stellen wir eine Möglichkeit bereit die entsprechende Werte in Klipper speichern und Auswerten zu können.
 
-ACHTUNG: Wir übernehmen keine Haftung bei Schäden die durch die Nutzung entstehen könnten.
+❗ ACHTUNG: Wir übernehmen keine Haftung bei Schäden die durch die Nutzung entstehen könnten.
+
 
 ## Voraussetzung ist das ihr folgende Konfiguration schon erfolgreich durchgeführt habt:
 https://github.com/cryd-s/Vyper_extended/tree/main/Betriebsstunden
@@ -28,7 +29,10 @@ Erstellt in Mainsail einen neuen Ordner z.B.
  `get_filter_time.sh, reset_filter_time.sh und die .ftime.stb`.
 
 Die schon vorhandenen Dateien `user_variable.cfg` und `printtime.cfg` durch die neue ersetzen.
-!!! Achtung dies überschreibt von euch vorgenommene Änderungen in den Dateien !!!
+```diff
+❗Achtung dies überschreibt von euch vorgenommene Änderungen in den Dateien ❗
+````
+
 
 Die Datei `gcode_shell_command.py` könnt ihr in das Homeverzeichnis z.B. `/home/pi/` kopieren.
 
