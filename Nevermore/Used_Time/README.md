@@ -19,7 +19,6 @@ https://github.com/cryd-s/Vyper_extended/tree/main/Betriebsstunden
  - [ ] filter_used_time.cfg
  - [ ] printtime.cfg
  - [ ] user_variable.cfg (angepasst)
- - [ ] .ftime.stb (optional wird automatisch erstellt
 
 Erstellt in Mainsail einen neuen Ordner z.B. 
 
@@ -41,7 +40,7 @@ Damit Klipper dies Funktionen aus dem Python Script aufrufen kann muss diese üb
 danach Klipper Service Neustarten.
 Nach dem Neustart von Klipper sollte keine Fehlermeldung erscheinen!!
 
-Folgendes Macro ausführen `ResetFilterDate` somit wird das aktuelle Datumgespeichert ud nahend diesem die vergangene Tagen berechnet.
+Jetzt Folgendes Macro ausführen `ResetFilterDate` somit wird das aktuelle Datum gespeichert und nach diesem die vergangene Tagen berechnet.
 Das Datum kann man in der .`ftime.stb` manuell ändern wenn man weiß wann das letzte mal die Aktivkohle getauscht wurde. 
 
     Format: YYYYMMDD
@@ -53,6 +52,8 @@ Dies sollte dan so aussehen
 		
 Mit dem Aufruf des Macros `get_FilterStatusAll` wird die komplette Statistik angezeigt (Druckzeit und Used Days)
 ![enter image description here](https://github.com/chefe82/Klipper/raw/main/Nevermore/Used_Time/Pictures/nevermore_status_all.png)
+
+Durch die ausführung des Macros `RST_FILTER` kann die ganze Statistik zurück gesetzt werden.
 
 
     
