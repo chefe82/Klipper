@@ -50,6 +50,9 @@ Dies sollte dan so aussehen
 
 ![enter image description here](https://github.com/chefe82/Klipper/blob/main/Nevermore/Used_Time/Pictures/nevermore_status.png?raw=true)
 		
+Mit dem Aufruf des Macros `get_FilterStatusAll` wird die komplette Statistik angezeigt (Druckzeit und Used Days)
+![enter image description here](https://github.com/chefe82/Klipper/raw/main/Nevermore/Used_Time/Pictures/nevermore_status_all.png)
+
 
     
 
