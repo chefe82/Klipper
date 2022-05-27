@@ -1,6 +1,6 @@
 # Nevermore Aktivkohle nach Nutzungszeit (Tagen)
 
-Die Aktivkohle im Nevermore Filter sollte idealerweise nach 50 Druckstunden oder 30 Tagen nach herausnahme aus der Vakuumverpackung getauscht werden.
+Die Aktivkohle im Nevermore Filter sollte idealerweise nach 50 Druckstunden oder 30 Tagen nach Herausnahme aus der Vakuumverpackung getauscht werden.
 Hiermit stellen wir eine Möglichkeit bereit die entsprechende Werte in Klipper speichern und Auswerten zu können.
 
 ❗ ACHTUNG: Wir übernehmen keine Haftung bei Schäden die durch die Nutzung entstehen könnten.
