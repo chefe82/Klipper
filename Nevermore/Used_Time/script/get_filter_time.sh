@@ -5,7 +5,7 @@
 NOW=$(date +"%Y%m%d")
 
 # Loading the date of the last reset
-ResetTime=$(head -1 /home/pi/klipper_config/script/.ftime.stb) 
+ResetTime=$(head -1 /home/pi/klipper_config/Nevermore_Scripts/.ftime.stb) 
 
 # Determine daily difference
 let DIFF=($(date +%s -d $NOW)-$(date +%s -d $ResetTime))/86400
