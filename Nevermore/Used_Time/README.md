@@ -49,7 +49,7 @@ Das Datum kann man in der `.ftime.stb` manuell ändern, wenn man weiß wann das 
     Format: YYYYMMDD
 
 Mit dem Ausführen des Macros `get_FilterStatusDate` kann man sich die Auswertung anzeigen lassen.
-Diese sollte dan so aussehen
+Diese sollte dann so aussehen
 
 ![enter image description here](https://github.com/chefe82/Klipper/blob/main/Nevermore/Used_Time/Pictures/nevermore_status.png?raw=true)
 		
