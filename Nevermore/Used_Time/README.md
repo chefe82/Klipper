@@ -5,7 +5,7 @@ Hiermit stellen wir eine Möglichkeit bereit die entsprechende Werte in Klipper 
 
 ACHTUNG: Wir übernehmen keine Haftung bei Schäden die durch die Nutzung entstehen könnten.
 
-Voraussetzung ist das ihr folgende Configuration schon erfolgreich durchgeführt habt:
+## Voraussetzung ist das ihr folgende Configuration schon erfolgreich durchgeführt habt:
 https://github.com/cryd-s/Vyper_extended/tree/main/Betriebsstunden
 
 
