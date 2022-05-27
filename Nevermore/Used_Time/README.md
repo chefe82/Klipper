@@ -23,7 +23,7 @@ https://github.com/cryd-s/Vyper_extended/tree/main/Betriebsstunden
 
 Erstellt in Mainsail einen neuen Ordner z.B. 
 
-     Nevermore_Scripts
+    Nevermore_Scripts
 
  in diesen Ordner kopiert ihr folgende Dateien
  `get_filter_time.sh, reset_filter_time.sh und die .ftime.stb`.
