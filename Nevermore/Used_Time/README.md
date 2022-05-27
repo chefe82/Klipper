@@ -44,7 +44,7 @@ danach Klipper Service Neustarten.
 Nach dem Neustart von Klipper sollte keine Fehlermeldung erscheinen!!
 
 Jetzt folgendes Macro ausführen `ResetFilterDate` somit wird das aktuelle Datum gespeichert und nach diesem die vergangene Tagen berechnet.
-Das Datum kann man in der .`ftime.stb` manuell ändern, wenn man weiß wann das letzte mal die Aktivkohle getauscht wurde. 
+Das Datum kann man in der `.ftime.stb` manuell ändern, wenn man weiß wann das letzte mal die Aktivkohle getauscht wurde. 
 
     Format: YYYYMMDD
 
